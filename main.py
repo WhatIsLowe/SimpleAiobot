@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 # Импортируем .env файл
 load_dotenv()
 
-TOKEN = os.getenv('BOT_TOKEN_TEST')
+TOKEN = os.getenv('BOT_TOKEN')
 
 dp = Dispatcher()
 
